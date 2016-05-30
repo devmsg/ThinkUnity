@@ -17,8 +17,7 @@ Assects目录结构：
 |--Scripts                  /核心包，无特殊情况请勿改动
     |--Controller 
         |--Home
-    |--Model 
-        |--Home
+    |--Model
     |--View 
         |--HomeView
             |--Config
