@@ -18,9 +18,9 @@ Assects目录结构：
     |--Controller                 /控制器目录
         |--Home                   /```Home```模块，项目默认模块  
     |--Model                      /模型。数据库相关操作。
-    |--View                       /视图目录，存放于层次面板与之对应的业务模块
-        |--HomeView               /
-            |--Config
+    |--View                       /视图目录
+        |--HomeView               /与层次面板与之对应的业务模块
+            |--Config             /
 ```
 
 
