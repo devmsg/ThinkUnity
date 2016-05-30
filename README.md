@@ -1,6 +1,6 @@
 # ThinkUnity
 
-更多偏向UI的构建工程
+更多偏向NGUI的构建工程
 
 ---
 
