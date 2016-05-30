@@ -40,5 +40,10 @@ Hierarchy面板结构：
 # UPDATE
 
 
+X1.0.0
+
+* 规范Assets架构
+* FileReadBase基类的构建
+
 
 
