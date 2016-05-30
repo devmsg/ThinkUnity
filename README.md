@@ -17,7 +17,7 @@ Assects目录结构：
     |--Model                                   /模型。数据库相关操作。
     |--View                                    /视图目录
         |--HomeView                            /与层次面板与之对应的业务模块
-            |--Config                          /用于存放当前HomeView层次视图中的所有文本信息变量
+            |--Config                          /用于存放当前HomeView视图中的所有文本信息变量
 ```
 
 
