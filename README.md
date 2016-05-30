@@ -11,7 +11,7 @@ Assects目录结构：
 
 ```
 |-- Common                        /管理项目公共模块的变量目录
-    |--Config                     /用于存放当前HomeView视图中的所有文本信息变量
+    |--Config                     /用于存放项目公共模块中所有文本信息变量
 |--Resources                      /资源目录
 |--Scenes                         /场景目录
 |--Scripts                        /脚本目录
