@@ -1,3 +1,3 @@
 # ThinkUnity
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+一种更多偏向UI方面的一种MVC工厂模式
