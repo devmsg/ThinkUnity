@@ -16,7 +16,7 @@ Assects目录结构：
         |--Home                                /***Home***模块，项目默认模块  
     |--Model                                   /模型。数据库相关操作。
     |--View                                    /视图目录
-        |--HomeView                            /与层次面板与之对应的业务模块
+        |--HomeView                            /层次面板与之对应的业务模块
             |--Config                          /用于存放当前HomeView视图中的所有文本信息变量
 ```
 
@@ -37,7 +37,7 @@ Hierarchy面板结构：
 X1.0.0
 
 * 规范Assets架构
-* FileReadBase基类的构建
+* FileCRUDBase基类的构建
 
 
 
