@@ -17,7 +17,7 @@ Assects目录结构：
 |-- Scripts                                     /脚本目录
     |-- Controller                              /控制器目录
         |-- Home                                /***Home***模块，项目默认模块 
-    |-- Static
+    |-- Static                                  /公共方法
     |-- Model                                   /模型。数据库相关操作。
     |-- View                                    /视图目录
         |-- HomeView                            /层次面板与之对应的业务模块
