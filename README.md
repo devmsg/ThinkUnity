@@ -40,7 +40,7 @@ Hierarchy面板结构：
 X1.0.0
 
 * 规范Assets架构
-* FileBase基类的构建
+* JsonBase基类的构建
 * 基于HttpWebRequest类构建Get、Post请求服务端数据类RequestStoreBase
 
 
