@@ -41,7 +41,7 @@ X1.0.0
 
 * 规范Assets架构
 * FileCRUDBase基类的构建
-* 
+* 基于HttpWebRequest类构建Get、Post请求数据类
 
 
 
