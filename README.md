@@ -44,6 +44,7 @@ X1.0.0
 * 规范Assets架构
 * JsonBase基类的构建
 * 基于HttpWebRequest类构建Get、Post请求服务端数据类RequestStoreBase
+* C++Scoket网络基础类
 
 
 
