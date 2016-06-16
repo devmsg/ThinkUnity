@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using LitJson;
 using System.IO;
@@ -7,7 +8,17 @@ using System.Collections.Generic;
 public class JsonBase{
 
 	public static string m_strFixedPath = "";
-	public static string m_strFixedName = "data";
+
+	/// <summary>
+	/// json地址路径名
+	/// </summary>
+	public static string m_strFixedName = "";
+
+	/// <summary>
+	/// 获取根目录路径
+	/// </summary>
+	/// <returns>The path.</returns>
+	/// <param name="value">Value.</param>
 	protected static string GetPath(string value){
 		string strPath = Directory.GetCurrentDirectory();
 		if (!value.Substring(0, 1).Equals("/"))
@@ -18,8 +29,14 @@ public class JsonBase{
 		return strPath;
 	}
 
-	public static string JsonPathToTextJsonStream(string strFileName){
-		//string strPath = GetPath(strFileName);
+	/// <summary>
+	/// json内存数据流转换成文本数据流
+	/// </summary>
+	/// <returns>The path to text json stream.</returns>
+	/// <param name="strFileName">String file name.</param>
+	/// <param name="FixedName">Fixed name.</param>
+	public static string JsonPathToTextJsonStream(string strFileName,string FixedName){
+		m_strFixedPath = string.Format("{0}/"+ FixedName +"/", Directory.GetCurrentDirectory ());
 		string strPath = m_strFixedPath + strFileName;
 		FileStream pFile = new FileStream (strPath, FileMode.Open);
 		byte [] pBuffer = new byte[pFile.Length];
@@ -31,12 +48,10 @@ public class JsonBase{
 		return strTmp;
 	}
 
-	private JsonBase(){
-		m_strFixedPath = string.Format("{0}/"+ m_strFixedName +"/", Directory.GetCurrentDirectory ());
-	}
 
-	public static bool SaveFile(string strFileName, string [] pContexts){
+	public static bool SaveFile(string strFileName, string FixedName, string [] pContexts){
 		bool isRet = false;
+		m_strFixedPath = string.Format("{0}/"+ FixedName +"/", Directory.GetCurrentDirectory ());
 		string strPath = m_strFixedPath + strFileName;
 		FileStream pFile = null;
 		StreamWriter pWriter = null;
