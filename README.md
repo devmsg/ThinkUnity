@@ -45,7 +45,7 @@ X1.0.0
 * JsonBase基类的构建
 * 基于HttpWebRequest类构建Get、Post请求服务端数据类RequestStoreBase
 * C++Scoket网络基础类
-* 构建siblings 类
+* 构建siblings动态类
 
 
 
