@@ -47,7 +47,7 @@ public abstract class BaseUI : MonoBehaviour
 	/// </summary>
 	/// <value>The state.</value>
 	public EunmObjectState State
-	{ 
+	{
 		get {
 			return this._state;
 		}
@@ -115,7 +115,7 @@ public abstract class BaseUI : MonoBehaviour
 
 	protected virtual void OnUpdate(float deltaTime) { }
 
-	protected virtual void OnRelease() { 
+	protected virtual void OnRelease() {
 		this.State = EunmObjectState.None;
 		this.OnPlayCloseUIAudio();
 	}
@@ -140,7 +140,7 @@ public abstract class BaseUI : MonoBehaviour
 		this.State = EunmObjectState.Loading;
 	}
 	/// <summary>
-	/// 
+	///
 	/// </summary>
 	/// <returns>The UI When opening.</returns>
 	/// <param name="UIArray">UI Array.</param>
@@ -163,9 +163,6 @@ public abstract class BaseUI : MonoBehaviour
 	/// </summary>
 	/// <returns>The load data.</returns>
 	protected virtual void OnLoadData() { }
-	 
+
 
 }
-
-
-
