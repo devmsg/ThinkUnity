@@ -18,10 +18,6 @@ Assects目录结构：
          |-- Singleton                                   /用于存放单例基类的目录
         |-- Defines                             /定义状态目录
     |-- Logic                                   /游戏逻辑模块
-    |-- Model                                   /模型。数据库相关操作。
-    |-- View                                    /视图目录
-        |-- HomeView                            /层次面板与之对应的业务模块
-            |-- Config                          /用于存放当前HomeView视图中的所有文本信息变量
 ```
 
 ### UPDATE
