@@ -19,7 +19,7 @@ Assects目录结构：
     |-- Framework                               /框架入口目录
         |-- BaseObj                                /基类的目录
         |-- Common                                 /公共基类的目录
- 	    |-- Singleton 	                                  /用于存放单例基类的目录
+ 	    |-- Singleton 	                              /用于存放单例基类的目录
         |-- Defines                             /定义状态目录
     |-- Logic                                   /游戏逻辑模块
     |-- Model                                   /模型。数据库相关操作。
