@@ -15,7 +15,7 @@ Assects目录结构：
     |-- Framework                               /框架入口目录
         |-- BaseObj                                /基类的目录
         |-- Common                                 /公共基类的目录
-        |-- Singleton                              /用于存放单例基类的目录
+            |-- Singleton                              /用于存放单例基类的目录
         |-- Defines                                /定义状态目录
         |-- Manager                                /管理目录
     |-- Logic                                   /游戏逻辑模块
@@ -45,4 +45,3 @@ X1.0.0
 * 基于HttpWebRequest类构建Get、Post请求服务端数据类RequestStoreBase
 * C++Scoket网络基础类
 * 构建siblings动态类
-
